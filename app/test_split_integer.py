@@ -9,13 +9,13 @@ def test_sum_of_the_parts_should_be_equal_to_value() -> None:
 
 def test_should_split_into_equal_parts_when_value_divisible_by_parts() -> None:
     assert (
-        split_integer(30, 5) == [6, 6, 6, 6, 6]
+        split_integer(6, 2) == [3, 3]
     ), "Should split into equal parts when value divisible by parts"
 
 
 def test_should_return_part_equals_to_value_when_split_into_one_part() -> None:
     assert (
-        split_integer(123, 1) == [123]
+        split_integer(8, 1) == [8]
     ), "Should return part equals to value when split into one part"
 
 
